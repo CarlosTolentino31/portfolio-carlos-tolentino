@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfólio | Carlos Tolentino</title>
+  <style>
+    :root{--bg:#f7fafc;--card:#ffffff;--accent:#0ea5ff;--muted:#6b7280;--maxw:1000px}
+    *{box-sizing:border-box;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial}
+    body{margin:0;background:var(--bg);color:#111827;display:flex;justify-content:center;padding:28px}
+    .wrap{width:100%;max-width:var(--maxw)}
+    .hero{display:flex;gap:24px;background:linear-gradient(180deg,rgba(14,165,255,0.08),transparent);padding:28px;border-radius:14px;align-items:center}
+    .avatar{width:120px;height:120px;border-radius:14px;object-fit:cover;border:4px solid rgba(14,165,255,0.12)}
+    h1{margin:0;font-size:22px}
+    .subtitle{color:var(--accent);margin-top:6px;font-weight:600}
+    .cta{margin-top:12px;display:flex;gap:10px}
+    .btn{background:var(--accent);color:white;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600}
+    .btn.secondary{background:transparent;color:var(--accent);border:1px solid rgba(14,165,255,0.16)}
+
+    .grid{display:grid;grid-template-columns:2fr 1fr;gap:20px;margin-top:20px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 4px 18px rgba(2,6,23,0.06)}
+    section h2{margin:0 0 10px 0;font-size:16px}
+    p, li{color:var(--muted);line-height:1.5}
+    ul{padding-left:18px;margin:6px 0}
+    .cert a{color:var(--accent);text-decoration:none}
+    aside .small{font-size:13px;color:var(--muted)}
+
+    footer{text-align:center;color:var(--muted);margin-top:18px;font-size:13px}
+
+    @media (max-width:900px){.grid{grid-template-columns:1fr}.hero{flex-direction:row;gap:14px}.avatar{width:88px;height:88px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <img src="/assets/cover.jpg" alt="Carlos Tolentino" class="avatar">
+      <div>
+        <h1>Carlos Tolentino</h1>
+        <div class="subtitle">Engenharia Elétrica — UNIFACS</div>
+        <div class="cta">
+          <a class="btn" href="/Portfolio_Carlos_Tolentino_Final.pdf" target="_blank">Baixar Portfólio (PDF)</a>
+          <a class="btn secondary" href="#contato">Contato</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="grid">
+      <div>
+        <article class="card">
+          <h2>Resumo Profissional</h2>
+          <p>Estudante de Engenharia Elétrica pela Universidade Salvador (UNIFACS), com previsão de formatura em junho de 2027. Possuo experiência em rotinas administrativas, organização de documentos, controle de planilhas, suporte técnico e acompanhamento de processos internos. Atuei em atividades que exigem atenção aos detalhes, responsabilidade e capacidade de resolução de problemas. Busco oportunidades de estágio superior e técnico na área elétrica, visando aplicar meus conhecimentos em situações práticas e contribuir para o desenvolvimento de soluções eficientes e inovadoras.</p>
+        </article>
+
+        <article class="card" style="margin-top:14px">
+          <h2>Projetos Acadêmicos</h2>
+          <ul>
+            <li><strong>Filtro Passa-Faixa</strong> — Análise e simulação no LTspice. Relatório com resposta em frequência e comparação teórica.</li>
+            <li><strong>Circuito RLC</strong> — Estudo de EDOs: resolução analítica e interpretação de respostas transientes e estacionárias.</li>
+          </ul>
+          <p class="small">(Você pode adicionar imagens ou links diretos para cada projeto)</p>
+        </article>
+
+        <article class="card" style="margin-top:14px">
+          <h2>Certificações e Cursos</h2>
+          <div class="cert">
+            <p><strong>Análise de Sinais e Sistemas — UNIFACS (06/07/2025)</strong><br><a href="https://cloudapp.animaeducacao.com.br/validador-documento/?code=33b2b3fcbc2047c6955552560eb2a7f7" target="_blank">Verificar autenticidade</a></p>
+            <p><strong>Eletrônica Industrial — UNIFACS (24/12/2024)</strong><br><a href="https://cloudapp.animaeducacao.com.br/validador-documento/?code=7b67b43df83c46a9ace802c73b42d2a6" target="_blank">Verificar autenticidade</a></p>
+            <p><strong>Análise de Circuitos Elétricos — UNIFACS (24/12/2024)</strong><br><a href="https://cloudapp.animaeducacao.com.br/validador-documento/?code=009fc0d99de64158b4ed9f63a91e01df" target="_blank">Verificar autenticidade</a></p>
+            <p><strong>Administração e Integração de Operações e Qualidade — UNIFACS (08/07/2025)</strong><br><a href="https://cloudapp.animaeducacao.com.br/validador-documento/?code=a1c19cb9f0c242e0a3cb04e4130cf206" target="_blank">Verificar autenticidade</a></p>
+            <p><strong>Gestão de Pessoas — SEBRAE (07/08/2025 a 09/08/2025)</strong><br><a href="https://certificados.sebrae.com.br/?code=689802bdba98c71693bcd316" target="_blank">Verificar autenticidade</a></p>
+            <p><strong>A Liderança na Gestão de Equipes — SEBRAE (07/08/2025 a 11/08/2025)</strong><br><a href="https://certificados.sebrae.com.br/?code=689a0755b78172411237027c" target="_blank">Verificar autenticidade</a></p>
+          </div>
+        </article>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h2>Formação</h2>
+          <p class="small"><strong>Bacharelado:</strong> Engenharia Elétrica — UNIFACS (Previsão: Jun/2027)</p>
+          <p class="small"><strong>Técnico:</strong> Eletrotécnica — SENAI Dendezeiros (Semi-Presencial, 16/08/2025 a 01/07/2027)</p>
+        </div>
+
+        <div class="card" id="contato" style="margin-top:14px">
+          <h2>Contato</h2>
+          <p class="small">E-mail: <a href="mailto:cjoliveira0131@gmail.com">cjoliveira0131@gmail.com</a></p>
+          <p class="small">WhatsApp: <a href="https://wa.me/5571985175109">+55 71 98517-5109</a></p>
+          <p class="small">LinkedIn: <a href="https://www.linkedin.com/in/carlos-tolentino-749944217/" target="_blank">carlos-tolentino-749944217</a></p>
+        </div>
+
+        <div class="card" style="margin-top:14px; text-align:center">
+          <p class="small">Baixe o PDF do portfólio</p>
+          <a class="btn" style="display:inline-block;margin-top:8px;text-decoration:none" href="/Portfolio_Carlos_Tolentino_Final.pdf" target="_blank">Baixar PDF</a>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <p>© 2025 Carlos Tolentino — Portfólio profissional</p>
+    </footer>
+  </div>
+</body>
+</html>
